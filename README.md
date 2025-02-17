@@ -42,14 +42,14 @@ Bu projeyi kullanabilmek için bilgisayarınızda aşağıdaki araçların kurul
 3.  Projeyi indirin veya klonlayın:
 
     ```bash
-    git clone <repo-url>
+    git clone https://github.com/SevalSorak/staj-basvuru-otomasyonu.git
     ```
 
 ### Kullanım
 
 1.  **Web Siteleri Listesini Hazırlama:**
 
-    E-posta aramak istediğiniz web sitelerinin listesini `company_websites.txt` dosyasına yazın. Her bir web sitesini yeni bir satıra ekleyin.
+    E-posta aramak istediğiniz web sitelerinin listesini `company_websites.txt` dosyasına yazın. 
 
 2.  **E-posta Adreslerini Toplama:**
 
@@ -67,6 +67,6 @@ Bu projeyi kullanabilmek için bilgisayarınızda aşağıdaki araçların kurul
 
     Toplanan e-posta adreslerine otomatik olarak e-posta gönderebilmek için, SMTP ayarlarınızı yapmanız gerekir. Bu adım opsiyoneldir, ancak işlevsellik için gereklidir.
 
-    #### E-posta Gönderme İçin Ayar Yapma
+5.  **E-posta Gönderme İçin Ayar Yapma:**
 
     E-posta gönderme işlevini kullanabilmek için, SMTP sunucusu (Gmail veya benzeri) ve kimlik doğrulama bilgilerinizi sağlamanız gerekir. Bu ayarlar, kodda belirtilen yere eklenmelidir.
